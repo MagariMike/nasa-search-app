@@ -2,11 +2,12 @@
 import React from "react";
 import '../styles/app.css';
 import Search from "../components/Search";
+
 const App = () => {
   
   return (
     <div className="App">
-      <img cassName="nasa-logo" src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg" alt="NASA Logo"></img>
+      <img className="nasa-logo" src="https://cdn.cnn.com/cnnnext/dam/assets/200424060716-nasa-worm-logo.jpg" alt="NASA Logo"></img>
       <Search />
     </div>
   );
