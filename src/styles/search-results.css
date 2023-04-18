@@ -1,0 +1,20 @@
+.search-title {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.card-image {
+    height: 300px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
