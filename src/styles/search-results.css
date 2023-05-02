@@ -13,11 +13,10 @@
     margin: auto;
 }
 
-
 .gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
-        border-radius: 40
+    border-radius: 40;
 }

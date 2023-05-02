@@ -9,7 +9,7 @@ const Search = ({ setSearchResults, setMessage }) => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     setSearchResults(await getImages(value));
-    setMessage("Oops we didn't find anything!")
+     setMessage("") 
   };
   return (
     <>
@@ -20,7 +20,7 @@ const Search = ({ setSearchResults, setMessage }) => {
           onChange={(e) => setValue(e.target.value)}
         ></input>
         <button className="search-btn" type="submit">
-          Go!
+          Launch! 🚀
         </button>
       </form>
     </>
